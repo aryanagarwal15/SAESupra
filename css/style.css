@@ -9,7 +9,7 @@ html,
 body {
 	font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
-	background: #ffffff;
+	background: #000;
 	margin: 0;
 }
 
@@ -60,7 +60,7 @@ input[type="reset"],
 /*-- banner --*/
 
 .banner {
-	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	background: url(../images/sae/car1.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -865,8 +865,9 @@ li.wthree_follow {
 	height: 80px;
 	background: #ffcd18;
 	border-radius: 50%;
-	margin: 2em auto 0;
+	margin: 0 auto 0;
 	text-align: center;
+	margin-left: 90px;
 }
 
 .w3layouts_stats_grid1 i {
@@ -887,7 +888,7 @@ li.wthree_follow {
 	font-size: 2.5em;
 	font-weight: 700;
 	letter-spacing: 2px;
-	color: #000;
+	color: #fff;
 	margin-bottom: 1em;
 	text-transform: uppercase;
 	text-align: center;
@@ -903,7 +904,7 @@ h3.wthree_text_info {
 	font-size: 2.5em;
 	font-weight: 700;
 	letter-spacing: 2px;
-	color: #000;
+	color: #fa930b;
 	margin-bottom: 1em;
 	text-transform: uppercase;
 }
@@ -934,13 +935,13 @@ p.agile_des {
 }
 
 .w3layouts_about_grid_left {
-	background: url(../images/ab.jpg) no-repeat 0px 0px;
+	background: url(../images/sae/team/team1.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
-	min-height: 600px;
+	min-height: 390px;
 }
 
 
@@ -948,14 +949,14 @@ p.agile_des {
 
 .odometer {
 	font-size: 3em;
-	color: #000;
+	color:  	#FF8C00;
 	font-weight: 600;
 }
 
 .w3_stats_grid p {
 	font-size: 1em;
 	color: #ff0101;
-	margin: 1em 0 0;
+	margin: 0 0 0;
 	font-weight: 600;
 }
 
@@ -1250,13 +1251,13 @@ p.agile_des {
 /*-- //portfolio --*/
 
 .banner_inner_agileits {
-	background: url(../images/banner_inner.jpg) no-repeat 0px 0px;
+	background: url(../images/sae/car1.jpg) no-repeat 0px -100px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
-	min-height: 350px;
+	min-height: 650px;
 }
 
 .w3layouts_banner_info_inner {
@@ -1533,7 +1534,7 @@ figure.effect-ruby:hover p {
 }
 
 .agile_info_text h4 a {
-	color: #1b1b1b;
+	color:  	#FF4500;
 }
 
 .agile_info_text h4 a:hover {
@@ -1541,7 +1542,7 @@ figure.effect-ruby:hover p {
 }
 
 .news_agile {
-	background: #0099e5;
+	background:#f8940a;
 }
 
 ul.new_w3ls_agile li {
@@ -1578,7 +1579,7 @@ ul.new_w3ls_agile li a:hover {
 }
 
 .w3layouts_getin_info h3 {
-	color: #000;
+	color: #fff;
 	letter-spacing: 4px;
 	font-size: 1.5em;
 }
@@ -2717,7 +2718,7 @@ span.input.input--chisato:nth-child(2) {
 
 .footer {
 	background: #1d1c1c;
-	padding: 4em 0;
+	padding: 1em 0;
 }
 
 .w3agile_footer_grid h3 {
